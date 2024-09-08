@@ -1,0 +1,56 @@
+:host {
+    display: block;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.posicion {
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.card-header {
+    border-bottom: 1px solid #af38ff;
+    background-color: #f8f9fa; 
+    padding: 10px 20px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6; 
+    padding: 12px; 
+    text-align: center; 
+}
+
+.table thead {
+    background-color: #af38ff; 
+    color: white; 
+}
+
+.table img {
+    max-width: 100px; 
+    height: auto; 
+}
+
+.btn-primary {
+    background-color: #af38ff;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #5c0e76;
+    border-color: #5c0e76;
+}
